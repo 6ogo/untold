@@ -1,0 +1,21 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_map/flutter_map.dart';
+
+class WorldMapScreen extends StatelessWidget {
+  const WorldMapScreen({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: FlutterMap(
+        options: MapOptions(
+          center: LatLng(0, 0), // Center the map
+          zoom: 2.0, // Initial zoom level
+        ),
+        layers: const [
+          // Add tile layer and heatmap layer here
+        ],
+      ),
+    );
+  }
+}
