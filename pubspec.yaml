@@ -37,7 +37,7 @@ dependencies:
   firebase_storage: ^12.3.2
   google_sign_in: ^6.2.1
   flutter_facebook_auth: ^7.1.1
-  camera: ^0.11.0+2
+  # camera: ^0.11.0+2
   flutter_map: ^6.0.0
   flutter_map_heatmap: ^0.0.7
   provider: ^6.1.2
@@ -47,6 +47,9 @@ dependencies:
   cupertino_icons: ^1.0.8
   firebase_messaging: ^15.1.3
   firebase_ui_oauth_google: ^1.4.0
+  camerawesome: ^2.1.0
+  better_open_file: ^3.6.5 # For opening files directly
+
 
 dev_dependencies:
   flutter_test:
